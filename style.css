@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* Top-container styling */
+
+.main-container{
+    background-image: url(./Images/bg-intro-desktop.svg);
+}
+
+.top-container{
+    display: flex;
+}
+
+.nav-bars,li{
+    display: inline;
+    list-style-type: none;
+    padding-inline: 20px;
+    
+}
+
+.nav-bars ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color:#D0D0D2;
+}
+
+.easy-bank{
+    margin-right: 10%;
+    
+}
+
+.request-button{
+    margin-left: 10%;
+    cursor: pointer;
+}   
+
+#request-btn{
+    background-color:#2DC4A2;
+    color: white;
+    padding-inline: 25px;
+    border-radius: 10px;
+    border: none;
+
+    
+}
+
+/* Semi-container styling */
+.top-container{
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #F4F5F7;
+    border: 1 solid #006A00;
+}
+
+.semi-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 13%;
+    background-image: url(./Images/bg-intro-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    margin-right: 10%;
+    height: max-content;
+}
+
+.nextGen h1{
+    width: 30%;
+}
+
+
+.nextGen{
+    margin-top: 15%;
+    
+}
+
+
+.request-invite{
+    margin-top: 20px;
+    cursor: pointer;
+  
+
+}
+
+.nextGen P{
+    width: 72%;
+    margin-top: 20px;
+    color:#D0D0D2;
+    
+}
+
+.intro-desktop img{ 
+    width: 75%;
+    margin-top: 1%;
+}
+
+/* Why Bank with us styling */
+.why-container{
+    background-color: #F4F5F7;
+    padding: 25px;
+    
+
+}
+
+.choice-container{
+    margin-left: 10%; 
+}
+
+.choice-container h1{
+    margin-left: 1%;
+}
+.choice-container p{
+     width: 49%;
+     margin-top: 20px;
+     margin-left: 1%;
+     color:#D0D0D2;
+}
+
+/* What we offer styling */
+
+.what-we-offer-container{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.info p{
+    width: 86.1%;
+    margin-top: 5%;
+    color:#D0D0D2;
+
+}
+
+.name p{
+    margin-top: 5%;
+}
+
+/* Latest article styling */
+
+.Article-main-container{
+    display: flex;
+    margin-left: 13%;
+    margin-right: 6%;
+    margin-top: 3%;
+
+}
+
+.article-frame{
+    background-color:white;
+    border: 1px solid white;
+    width: fit-content;
+}
+
+.choice-container{
+    margin-top: 3%;
+    margin-left: 12%; 
+}
+
+.art-img{
+width: 90%;
+height: 40%;
+}
+
+.writers-name p{
+    margin-top: 3%;
+    color:#D0D0D2;
+    padding-left: 4%;
+padding-right: 15%;
+}
+
+.info-article p{
+margin-top: 3%;
+padding-left: 4%;
+padding-right: 15%;
+}
+
+.article-content p{
+margin-top: 3%;
+width: 95%;
+color:#D0D0D2;
+padding-left: 4%;
+}
+
+/* Footer styling */
+
+.footer{
+    /* background-color: #2D314E; */
+}
+
+.media-icons{
+    
+}
